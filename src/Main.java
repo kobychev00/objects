@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        // dz
-        System.out.println("ДЗ");
+        // dz1
+        System.out.println("ДЗ1");
         Author author1 = new Author ("Дмитрий", "Лихачев");
         Book book1 = new Book("Письма о добром", author1 , 2014 );
         Author author2 = new Author("Александр", "Дюма");
