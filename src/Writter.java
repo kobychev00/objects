@@ -14,5 +14,9 @@ public class Writter {
     public String getAgePublish() {
         return this.secondName;
     }
+
+    public String toString() {
+        return "Имя " + this.firstName + " Фамилия " + this.secondName;
+    }
 }
 

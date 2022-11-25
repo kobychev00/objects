@@ -5,8 +5,8 @@ public class Main {
         System.out.println("ДЗ1");
         Author author1 = new Author ("Дмитрий", "Лихачев");
         Book book1 = new Book("Письма о добром", author1 , 2014 );
-        Author author2 = new Author("Александр", "Дюма");
-        Book book2 = new Book("Три мушкетёра", author2, 2005);
+        Author authorDuma = new Author("Александр", "Дюма");
+        Book book2 = new Book("Три мушкетёра", authorDuma, 2005);
         System.out.println(book1.getHeader() + " " + book1.getYearPublish() + " " + book1.getWritter());
         System.out.println(book2.getHeader() + " " + book2.getYearPublish() + " " + book2.getWritter());
         book2.setYearPublish(2010);
