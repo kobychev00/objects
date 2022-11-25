@@ -1,11 +1,11 @@
 public class Book {
     private String header;
-    private Writter writter;
+    private Author author;
     private int yearPublish;
 
     public Book(String header, Author author, int yearPublish) {
         this.header = header;
-        this.writter = new Writter("Дмитрий", "Лихачев");
+        this.author = author;
         this.yearPublish = yearPublish;
     }
 
@@ -13,8 +13,8 @@ public class Book {
         return this.header;
     }
 
-    public Writter getWritter() {
-        return this.writter;
+    public Author getAuthor() {
+        return this.author;
     }
 
     public int getYearPublish() {

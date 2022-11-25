@@ -7,10 +7,10 @@ public class Main {
         Book book1 = new Book("Письма о добром", author1 , 2014 );
         Author authorDuma = new Author("Александр", "Дюма");
         Book book2 = new Book("Три мушкетёра", authorDuma, 2004);
-        System.out.println(book1.getHeader() + " " + book1.getYearPublish() + " " + book1.getWritter());
-        System.out.println(book2.getHeader() + " " + book2.getYearPublish() + " " + book2.getWritter());
+        System.out.println(book1.getHeader() + " " + book1.getYearPublish() + " " + book1.getAuthor());
+        System.out.println(book2.getHeader() + " " + book2.getYearPublish() + " " + book2.getAuthor());
         book2.setYearPublish(2010);
-        System.out.println("Обновлена дата издания" + ". " + book2.getHeader() + " " + book2.getYearPublish() + " " + book2.getWritter());
+        System.out.println("Обновлена дата издания" + ". " + book2.getHeader() + " " + book2.getYearPublish() + " " + book2.getAuthor());
 
 
 
