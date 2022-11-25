@@ -12,24 +12,6 @@ public class Main {
         book2.setYearPublish(2010);
         System.out.println("Обновлена дата издания" + ". " + book2.getHeader() + " " + book2.getYearPublish() + " " + book2.getAuthor());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // конспект
         String nameJohn = "John";
         int ageJohn = 13;
